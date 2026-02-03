@@ -1,0 +1,143 @@
+:root {
+  --primary: #0a1f44;
+  --accent: #00d9ff;
+  --light: #f5f7fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: var(--light);
+  color: #111;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  z-index: 1000;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: var(--accent);
+}
+
+nav a {
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #0a1f44, #031026);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p {
+  margin: 15px 0;
+  max-width: 600px;
+}
+
+.hero button {
+  width: 200px;
+  padding: 12px;
+  background: var(--accent);
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.exams, .features, .contact {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card span {
+  font-size: 14px;
+  color: gray;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.features ul {
+  list-style: none;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.features li {
+  margin: 12px 0;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+}
+
+.contact button {
+  padding: 12px;
+  width: 100%;
+  background: var(--primary);
+  color: white;
+  border: none;
+}
+
+footer {
+  background: #031026;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
