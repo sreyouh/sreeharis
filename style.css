@@ -253,38 +253,6 @@ footer {
   justify-content: center;
 }
 
-.primary-btn {
-  background: #0a2540;
-  color: white;
-  padding: 14px 26px;
-  border-radius: 10px;
-  border: none;
-  font-size: 15px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.primary-btn:hover {
-  background: #133b66;
-  transform: translateY(-2px);
-}
-
-.secondary-btn {
-  background: transparent;
-  color: white;
-  border: 2px solid white;
-  padding: 14px 26px;
-  border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.secondary-btn:hover {
-  background: white;
-  color: #0a2540;
-  }
 .nda-info {
   max-width: 900px;
   margin: 80px auto;
