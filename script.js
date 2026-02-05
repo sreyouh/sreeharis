@@ -3,6 +3,9 @@ function scrollToSection(id) {
     behavior: "smooth"
   });
 }
+function goToPage(page) {
+  window.location.href = page;
+}
 
 
 
