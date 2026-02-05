@@ -47,33 +47,6 @@ nav a:hover {
   color: var(--accent);
 }
 
-.hero {
-  height: 90vh;
-  background: linear-gradient(to right, #0a1f44, #031026);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 60px;
-}
-
-.hero h1 {
-  font-size: 48px;
-}
-
-.hero p {
-  margin: 15px 0;
-  max-width: 600px;
-}
-
-.hero button {
-  width: 200px;
-  padding: 12px;
-  background: var(--accent);
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-}
 
 .exams, .features, .contact {
   padding: 80px 60px;
@@ -447,3 +420,48 @@ section {
   position: relative;
   margin-top: 0;
   }
+/* ===== HOME HERO WITH IMAGE ===== */
+
+.home-hero {
+  min-height: 90vh;
+  background:
+    linear-gradient(rgba(3,16,38,0.7), rgba(3,16,38,0.85)),
+    url("homeimg.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-overlay {
+  text-align: left;
+  color: #ffffff;
+  max-width: 600px;
+  padding: 40px;
+}
+
+.home-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.home-overlay p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+
+.home-btn {
+  display: inline-block;
+  padding: 14px 28px;
+  background: var(--accent);
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
