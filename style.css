@@ -439,3 +439,66 @@ footer {
 .nda-btn.secondary:hover {
   background: #e6e6e6;
   }
+/* ===== NDA HERO SECTION ===== */
+
+.nda-hero {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)),
+    url("nda.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nda-overlay {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.nda-overlay h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.nda-overlay p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+/* ===== BUTTONS ===== */
+
+.nda-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nda-btn {
+  padding: 12px 22px;
+  background: #f5c518;
+  color: #111;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.nda-btn:hover {
+  background: #d4a900;
+  transform: translateY(-3px);
+}
+
+.nda-btn.secondary {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.nda-btn.secondary:hover {
+  background: #ffffff;
+  color: #111;
+}
