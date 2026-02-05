@@ -502,3 +502,19 @@ footer {
   background: #ffffff;
   color: #111;
 }
+.nda-hero {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.nda-structure {
+  position: relative;
+  z-index: 2;
+  margin-top: 0;
+  padding-top: 80px;
+  background: #d3d3d3;
+  }
+section {
+  position: relative;
+  margin-top: 0;
+  }
