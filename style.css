@@ -560,62 +560,20 @@ section {
 }
 /* AFCAT HERO */
 .afcat-hero {
-    background: url('afcat.jpg') center/cover no-repeat;
-    position: relative;
-    height: 70vh;
-}
-
-.hero-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(5, 15, 40, 0.75);
-}
-
-.hero-content {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    color: #ffffff;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.hero-content h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.hero-content p {
-    font-size: 1.1rem;
-    opacity: 0.9;
-}
-
-/* AFCAT HERO */
-.afcat-hero {
   background: url('afcat.jpg') center/cover no-repeat;
   min-height: 85vh;
   position: relative;
 }
 
 .afcat-overlay {
-  background: rgba(6, 15, 40, 0.75);
+  background: rgba(6, 15, 40, 0.75); /* SAME LOGIC AS CDS */
   min-height: 85vh;
   padding: 120px 8% 60px;
   color: #ffffff;
   text-align: center;
 }
 
-.afcat-overlay h1 {
-  font-size: 2.8rem;
-  margin-bottom: 10px;
-}
-
-.afcat-overlay p {
-  opacity: 0.9;
-  margin-bottom: 30px;
-}
-
-/* AFCAT BUTTONS */
+/* BUTTON CONTAINER */
 .afcat-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -624,40 +582,30 @@ section {
   margin-bottom: 25px;
 }
 
+/* BUTTON STYLE (CLONED FROM CDS) */
 .afcat-btn {
   text-decoration: none;
   padding: 12px 22px;
   border-radius: 30px;
-  background: #ffffff;
-  color: #0a1f44;
+  background: #0a1f44;
+  color: #ffffff;
   font-weight: 600;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
 .afcat-btn:hover {
-  background: #0a1f44;
-  color: #ffffff;
-}
-
-.afcat-btn.secondary {
-  border: 2px solid #ffffff;
-  background: transparent;
-  color: #ffffff;
-}
-
-.afcat-btn.secondary:hover {
   background: #ffffff;
   color: #0a1f44;
 }
 
-/* AFCAT NOTE */
+/* NOTE TEXT */
 .afcat-note {
   font-size: 0.9rem;
-  opacity: 0.85;
+  opacity: 0.9;
   margin-top: 10px;
 }
 
-/* AFCAT INFO */
+/* INFO SECTION */
 .afcat-info {
   padding: 60px 8%;
   background: #f5f7fa;
@@ -667,4 +615,4 @@ section {
 .afcat-info h2 {
   color: #0a1f44;
   margin-bottom: 15px;
-  }
+}
