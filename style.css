@@ -616,3 +616,54 @@ section {
   color: #0a1f44;
   margin-bottom: 15px;
 }
+/* AGNIVEER HERO */
+.agni-hero {
+  background: url('agni.jpg') center/cover no-repeat;
+  min-height: 85vh;
+  position: relative;
+}
+
+.agni-overlay {
+  background: rgba(6, 15, 40, 0.75);
+  min-height: 85vh;
+  padding: 120px 8% 60px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* BUTTON CONTAINER */
+.agni-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+/* BUTTON STYLE */
+.agni-btn {
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  background: #0a1f44;
+  color: #ffffff;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.agni-btn:hover {
+  background: #ffffff;
+  color: #0a1f44;
+}
+
+/* INFO SECTION */
+.agni-info {
+  padding: 60px 8%;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+.agni-info h2 {
+  color: #0a1f44;
+  margin-bottom: 15px;
+  }
