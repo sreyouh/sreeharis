@@ -475,3 +475,85 @@ section {
   padding: 60px;
   color: white;
                     }
+/* ===============================
+   CDS HERO SECTION
+   =============================== */
+
+.cds-hero {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)),
+    url("cds.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cds-overlay {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.cds-overlay h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.cds-overlay p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.cds-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.cds-btn {
+  padding: 12px 22px;
+  background: #0b2a55;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.cds-btn:hover {
+  background: #123a75;
+  transform: translateY(-2px);
+}
+
+.cds-note {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-top: 10px;
+}
+
+/* ===============================
+   CDS INFO
+   =============================== */
+
+.cds-info {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.cds-info h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.cds-info p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+}
