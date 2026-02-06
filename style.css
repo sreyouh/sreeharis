@@ -590,55 +590,81 @@ section {
     opacity: 0.9;
 }
 
-/* AFCAT CONTENT */
-.exam-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px;
-    padding: 60px 8%;
-    background: #f5f7fa;
+/* AFCAT HERO */
+.afcat-hero {
+  background: url('afcat.jpg') center/cover no-repeat;
+  min-height: 85vh;
+  position: relative;
 }
 
-.exam-card {
-    background: #ffffff;
-    border-radius: 10px;
-    padding: 30px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+.afcat-overlay {
+  background: rgba(6, 15, 40, 0.75);
+  min-height: 85vh;
+  padding: 120px 8% 60px;
+  color: #ffffff;
+  text-align: center;
 }
 
-.exam-card h2 {
-    color: #0a1f44;
-    margin-bottom: 15px;
+.afcat-overlay h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
 }
 
-.exam-card ul {
-    list-style: none;
-    padding-left: 0;
+.afcat-overlay p {
+  opacity: 0.9;
+  margin-bottom: 30px;
 }
 
-.exam-card ul li {
-    padding: 6px 0;
-    font-size: 0.95rem;
+/* AFCAT BUTTONS */
+.afcat-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
 }
 
-/* CTA */
-.exam-cta {
-    text-align: center;
-    padding: 50px 0;
-    background: #0a1f44;
+.afcat-btn {
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  background: #ffffff;
+  color: #0a1f44;
+  font-weight: 600;
+  transition: 0.3s;
 }
 
-.cta-btn {
-    color: #ffffff;
-    border: 2px solid #ffffff;
-    padding: 12px 28px;
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 30px;
-    transition: 0.3s;
+.afcat-btn:hover {
+  background: #0a1f44;
+  color: #ffffff;
 }
 
-.cta-btn:hover {
-    background: #ffffff;
-    color: #0a1f44;
+.afcat-btn.secondary {
+  border: 2px solid #ffffff;
+  background: transparent;
+  color: #ffffff;
 }
+
+.afcat-btn.secondary:hover {
+  background: #ffffff;
+  color: #0a1f44;
+}
+
+/* AFCAT NOTE */
+.afcat-note {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-top: 10px;
+}
+
+/* AFCAT INFO */
+.afcat-info {
+  padding: 60px 8%;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+.afcat-info h2 {
+  color: #0a1f44;
+  margin-bottom: 15px;
+  }
