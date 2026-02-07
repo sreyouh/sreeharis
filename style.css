@@ -675,6 +675,8 @@ section {
   opacity: 0.95;
   }
 /* AGNIVEER AIR FORCE DOWNLOAD PAGE */
+
+
 /* DOWNLOAD PAGE */
 .download-section {
   max-width: 900px;
@@ -689,19 +691,40 @@ section {
   color: #0a1f44;
 }
 
-/* TABLE */
+/* FULL BORDERED TABLE */
 .download-table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: collapse;      /* IMPORTANT */
   background: #ffffff;
+  border: 1px solid #2c2c2c;      /* OUTER BORDER */
 }
 
+/* CELLS */
 .download-table th,
 .download-table td {
+  border: 1px solid #2c2c2c;      /* INNER GRID LINES */
   padding: 14px 16px;
-  border-bottom: 1px solid #ddd;
   text-align: left;
   font-size: 15px;
+}
+
+/* HEADER */
+.download-table th {
+  background-color: #f0f2f5;
+  font-weight: 600;
+  color: #000;
+}
+
+/* VERY LIGHT BLUE DOWNLOAD TEXT */
+.download-link {
+  color: #7faedb;                /* very light blue */
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.download-link:hover {
+  text-decoration: underline;
 }
 
 .download-table th {
