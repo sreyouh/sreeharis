@@ -674,3 +674,57 @@ section {
   line-height: 1.6;
   opacity: 0.95;
   }
+/* AGNIVEER AIR FORCE DOWNLOAD PAGE */
+
+.download-section {
+  padding: 80px 8%;
+  text-align: center;
+  background: #f5f7fa;
+}
+
+.download-section h1 {
+  color: #0a1f44;
+  margin-bottom: 8px;
+}
+
+.subtext {
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.download-table {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.table-header,
+.table-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 16px 20px;
+  align-items: center;
+}
+
+.table-header {
+  background: #0a1f44;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.table-row {
+  border-top: 1px solid #e0e0e0;
+}
+
+.download-btn {
+  text-decoration: none;
+  color: #0a1f44;
+  font-weight: 600;
+}
+
+.download-btn:hover {
+  text-decoration: underline;
+}
